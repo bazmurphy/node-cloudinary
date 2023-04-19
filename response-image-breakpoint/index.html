@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Responsive Image Breakpoint</title>
+</head>
+<body>
+    <p id="output">
+      <span id="window-width"></span>
+      <span id="image-current-source"></span>
+    </p>
+    <img
+      id="image"
+      sizes="(max-width: 1400px) 100vw, 1400px"
+      srcset="
+      original_caak4t_c_scale,w_200.jpg 200w,
+      original_caak4t_c_scale,w_499.jpg 499w,
+      original_caak4t_c_scale,w_726.jpg 726w,
+      original_caak4t_c_scale,w_907.jpg 907w,
+      original_caak4t_c_scale,w_1072.jpg 1072w,
+      original_caak4t_c_scale,w_1233.jpg 1233w,
+      original_caak4t_c_scale,w_1382.jpg 1382w,
+      original_caak4t_c_scale,w_1400.jpg 1400w"
+      src="original_caak4t_c_scale,w_1400.jpg"
+      alt=""
+    >
+    <script src="script.js" defer></script>
+</body>
+</html>
